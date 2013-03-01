@@ -1,21 +1,17 @@
-# Template Puppet Module for Boxen
+# JewelryBox Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+JewelryBox 1.4.1
+THE OFFICIAL OS X RVM GUI
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include jewelrybox
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
 
 ## Development
 
